@@ -46,7 +46,6 @@ export default function Home() {
 
   return (
     <div className="min-h-screen mt-20 rounded-3xl p-8 max-w-7xl mx-auto bg-white dark:from-gray-700 dark:via-gray-900 dark:to-black">
-      <main className="container mx-auto">
         <div className="grid gap-16 md:grid-cols-2 md:gap-8">
           <div className="flex flex-col justify-center space-y-8">
             <div className="space-y-4">
@@ -146,7 +145,6 @@ export default function Home() {
             </div>
           ))}
         </div>
-      </main>
     </div>
   )
 }
